@@ -1,1 +1,29 @@
-/* No CSS *//*# sourceMappingURL=landing.css.map */
+.banner {
+  height: 90vh;
+  background: url(../Images/background.jpg);
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.banner::before {
+  background: rgba(99, 50, 1, 0.6);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.banner .container {
+  padding-top: 75px;
+  position: relative;
+  text-align: center;
+}
+
+.banner #down {
+  -webkit-transform: translateY(350px);
+          transform: translateY(350px);
+}
+/*# sourceMappingURL=landing.css.map */

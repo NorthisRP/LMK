@@ -1,0 +1,26 @@
+@import 'colors';
+
+.banner{
+    height: 90vh;
+    background: url(../Images/background.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+    &::before{
+        background:$filter;
+        content:"";
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    & .container{
+        padding-top: 75px;
+        position: relative;
+        text-align: center;
+    }
+    & #down{
+        transform: translateY(350px);
+    }
+}

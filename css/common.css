@@ -1,6 +1,10 @@
-.navbar {
-  background-color: #351A00;
-  color: white;
+nav {
+  background: #351A00;
+  height: 10vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
 }
 
 p {
