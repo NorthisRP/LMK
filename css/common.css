@@ -1,6 +1,6 @@
 nav {
   background: #351A00;
-  height: 10vh;
+  min-height: 10vh;
 }
 
 .navbar-dark .navbar-nav .nav-link {

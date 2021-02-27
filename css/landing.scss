@@ -15,12 +15,38 @@
         left: 0;
         right: 0;
     }
-    & .container{
-        padding-top: 75px;
-        position: relative;
-        text-align: center;
-    }
     & #down{
         transform: translateY(350px);
+    }
+}
+.container{
+    padding-top: 60px;
+    position: relative;
+    text-align: center;
+}
+.store{
+    background: $maincolor;
+    color: white;
+    text-align: center;
+}
+.card{
+    width: 380px;
+    padding: 36px;
+    color: black;
+    transition: .3s;
+    margin: 20px 0;
+    cursor: pointer;
+    & img{
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    & .container-sm{
+        margin-top: 35px;
+        padding-top: 20px;
+        border-top: rgb(99, 99, 99) solid 1px;
+    }
+    &:hover{
+        transform: scale(1.05);
     }
 }

@@ -16,14 +16,47 @@
   right: 0;
 }
 
-.banner .container {
-  padding-top: 75px;
+.banner #down {
+  -webkit-transform: translateY(350px);
+          transform: translateY(350px);
+}
+
+.container {
+  padding-top: 60px;
   position: relative;
   text-align: center;
 }
 
-.banner #down {
-  -webkit-transform: translateY(350px);
-          transform: translateY(350px);
+.store {
+  background: #351A00;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  width: 380px;
+  padding: 36px;
+  color: black;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.card .container-sm {
+  margin-top: 35px;
+  padding-top: 20px;
+  border-top: #636363 solid 1px;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=landing.css.map */
