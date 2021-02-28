@@ -50,3 +50,14 @@
         transform: scale(1.05);
     }
 }
+.contacts{
+    color: black;
+    & .form{
+        max-width: 1200px;
+        margin: 2em auto;
+        text-align: center;
+        border: $maincolor solid 10px;
+        border-radius: 12px;
+    }
+
+}

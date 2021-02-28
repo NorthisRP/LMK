@@ -6,6 +6,9 @@ nav{
 }
 .navbar-dark .navbar-nav .nav-link{
     color: white !important;
+    &:hover{
+        color: green !important;
+    }
 }
 
 p{
@@ -13,4 +16,29 @@ p{
 }
 h1{
     font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    &:hover{
+        color: green !important;
+    }
+}
+footer{
+    
+    background: $maincolor;
+    color: white;
+    & a{
+        color: white;
+        text-decoration: none;   
+    }
+    & .col-lg-4,.col-sm-6{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }

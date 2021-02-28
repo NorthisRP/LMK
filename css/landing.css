@@ -59,4 +59,16 @@
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+
+.contacts {
+  color: black;
+}
+
+.contacts .form {
+  max-width: 1200px;
+  margin: 2em auto;
+  text-align: center;
+  border: #351A00 solid 10px;
+  border-radius: 12px;
+}
 /*# sourceMappingURL=landing.css.map */
