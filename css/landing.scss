@@ -50,6 +50,9 @@
         transform: scale(1.05);
     }
 }
+.btn{
+    background: $secondcolor;
+}
 .contacts{
     color: black;
     & .form{

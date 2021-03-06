@@ -1,0 +1,29 @@
+@import 'colors';
+
+.card{
+    margin: 24px;
+    background: $maincolor !important;
+    color: rgb(255, 249, 241);
+    max-width: 260px !important;
+    transition: .3s;
+    &:hover{
+        transform: scale(1.05);
+        }
+    }
+.def{
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding-bottom: 4px;
+}
+.price{
+    margin: 8px 0;
+}
+.header{
+    border-bottom: 1px solid rgb(24, 24, 24);
+}
+.btn{
+    transition: .3s;
+    &:hover{
+        background: rgb(189, 88, 15) !important;
+        color: white !important;
+    }
+}

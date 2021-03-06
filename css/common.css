@@ -8,7 +8,24 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: green !important;
+  color: #ee9106 !important;
+}
+
+#dropdownMenuLink {
+  background: #351A00;
+  border: none;
+}
+
+.dropdown-menu.show {
+  background: #351A00;
+}
+
+.dropdown-menu.show .dropdown-item {
+  color: white !important;
+}
+
+.dropdown-menu.show .dropdown-item:hover {
+  color: black !important;
 }
 
 p {
@@ -28,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: green !important;
+  color: #ee9106 !important;
 }
 
 footer {

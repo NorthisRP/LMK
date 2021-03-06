@@ -60,6 +60,10 @@
           transform: scale(1.05);
 }
 
+.btn {
+  background: #ee9106;
+}
+
 .contacts {
   color: black;
 }

@@ -7,10 +7,22 @@ nav{
 .navbar-dark .navbar-nav .nav-link{
     color: white !important;
     &:hover{
-        color: green !important;
+        color: $secondcolor !important;
     }
 }
-
+#dropdownMenuLink{
+    background: $maincolor;
+    border: none;
+}
+.dropdown-menu.show{
+    background: $maincolor;
+    & .dropdown-item{
+        color: white !important;
+        &:hover{
+            color: black !important;
+        }
+    }
+}
 p{
     font-family: 'Roboto', sans-serif;
 }
@@ -23,7 +35,7 @@ h3{
 a{
     font-family: 'Roboto', sans-serif;
     &:hover{
-        color: green !important;
+        color: $secondcolor !important;
     }
 }
 footer{
