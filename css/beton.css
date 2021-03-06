@@ -22,7 +22,9 @@
 }
 
 .header {
+  color: #fffaf2;
   border-bottom: 1px solid #181818;
+  position: relative;
 }
 
 .btn {
@@ -33,5 +35,21 @@
 .btn:hover {
   background: #bd580f !important;
   color: white !important;
+}
+
+.background {
+  background: url(../Images/construction-3423435_1920.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.background::before {
+  background: rgba(99, 50, 1, 0.6);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 /*# sourceMappingURL=beton.css.map */

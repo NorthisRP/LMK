@@ -18,12 +18,28 @@
     margin: 8px 0;
 }
 .header{
+    color: rgb(255, 250, 242);
     border-bottom: 1px solid rgb(24, 24, 24);
+    position: relative;
 }
 .btn{
     transition: .3s;
     &:hover{
         background: rgb(189, 88, 15) !important;
         color: white !important;
+    }
+}
+.background{
+    background: url(../Images/construction-3423435_1920.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    &::before{
+        background:$filter;
+        content:"";
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 }

@@ -1,3 +1,25 @@
+@-webkit-keyframes translate {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+}
+
+@keyframes translate {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+}
+
 .banner {
   height: 90vh;
   background: url(../Images/background.jpg);
@@ -19,6 +41,15 @@
 .banner #down {
   -webkit-transform: translateY(350px);
           transform: translateY(350px);
+}
+
+.banner #down svg {
+  -webkit-animation-name: translate;
+          animation-name: translate;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .container {
