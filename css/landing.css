@@ -4,8 +4,8 @@
             transform: translateY(0px);
   }
   to {
-    -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
 }
 
@@ -15,8 +15,8 @@
             transform: translateY(0px);
   }
   to {
-    -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
 }
 
@@ -44,12 +44,8 @@
 }
 
 .banner #down svg {
-  -webkit-animation-name: translate;
-          animation-name: translate;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: translate .5s alternate infinite;
+          animation: translate .5s alternate infinite;
 }
 
 .container {

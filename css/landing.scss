@@ -5,7 +5,7 @@
         transform: translateY(0px);
     }
     to{
-        transform: translateY(15px);
+        transform: translateY(25px);
     }
 }
 
@@ -27,9 +27,7 @@
     & #down{
         transform: translateY(350px);
         svg{
-            animation-name: translate;
-            animation-duration: 2s;
-            animation-direction: alternate;
+            animation: translate .5s alternate infinite;
         }
     }
 }
