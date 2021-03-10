@@ -28,6 +28,12 @@
   position: relative;
 }
 
+.banner .container-fluid {
+  padding-top: 60px;
+  position: relative;
+  text-align: center;
+}
+
 .banner::before {
   background: rgba(99, 50, 1, 0.6);
   content: "";
@@ -39,19 +45,15 @@
 }
 
 .banner #down {
-  -webkit-transform: translateY(350px);
-          transform: translateY(350px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 80px;
 }
 
 .banner #down svg {
   -webkit-animation: translate .5s alternate infinite;
           animation: translate .5s alternate infinite;
-}
-
-.container {
-  padding-top: 60px;
-  position: relative;
-  text-align: center;
 }
 
 .store {

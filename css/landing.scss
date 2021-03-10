@@ -15,6 +15,11 @@
     background-size: cover;
     color: white;
     position: relative;
+    .container-fluid{
+        padding-top: 60px;
+        position: relative;
+        text-align: center;
+    }
     &::before{
         background:$filter;
         content:"";
@@ -25,17 +30,16 @@
         right: 0;
     }
     & #down{
-        transform: translateY(350px);
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 80px;
         svg{
             animation: translate .5s alternate infinite;
         }
     }
 }
-.container{
-    padding-top: 60px;
-    position: relative;
-    text-align: center;
-}
+
 .store{
     background: $maincolor;
     color: white;

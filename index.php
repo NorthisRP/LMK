@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/landing.css">
@@ -15,8 +15,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-md g-4">
-            <a href="index.html"><img src="Images/logo.png" alt="" width="60" height="60">
-                <a class="navbar-brand m-2" href="#">ЛибхерМонолитКомплект</a></a>    
+            <a href="index.php"><img src="Images/logo.png" alt="" width="60" height="60">
+                <a class="navbar-brand m-2" href="index.php">ЛибхерМонолитКомплект</a></a>    
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,12 +25,22 @@
                 <div class="navbar-nav">
                     <div class="dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          Прайс-листы
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать бетон.doc</a></li>
+                          <li><a class="dropdown-item m-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
+                          <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать плиты.doc</a></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                           Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <li><a class="dropdown-item m-2" href="beton.html">Бетон</a></li>
-                          <li><a class="dropdown-item m-2" href="fbs.html">ФБС</a></li>
-                          <li><a class="dropdown-item m-2" href="plite.html">Дорожные плиты</a></li>
+                          <li><a class="dropdown-item m-2" href="beton.php">Бетон</a></li>
+                          <li><a class="dropdown-item m-2" href="fbs.php">ФБС</a></li>
+                          <li><a class="dropdown-item m-2" href="plite.php">Дорожные плиты</a></li>
                         </ul>
                       </div>
                     <a class="nav-link link" id="link" href="#">Контакты</a>
@@ -39,11 +49,11 @@
         </div>
     </nav>
     <div class="banner">
-        <div class="container col-6">
-            <h1>Продажа строительных материалов в Волгограде</h1>
+        <div class="container-fluid">
+            <h1>Продажа строительных материалов <br> в Волгограде</h1>
             <p>Бетон, плиты, ФБС по самым доступным ценам</p>
         </div>
-        <div id="down" class="container col-6">
+        <div id="down" class="container-fluid">
             <h3>Узнать подробнее</h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-down"
                 viewBox="0 0 16 16">
@@ -52,8 +62,8 @@
             </svg>
         </div>
     </div>
-    <div class="about" id="about">
-        <div class="container col-6">
+    <div class="about p-4">
+        <div class="container text-center">
             <h1>О нашей компании</h1>
         </div>
         <div class="container-lg py-4">
@@ -96,7 +106,7 @@
             </p>
         </div>
     </div>
-    <div class="store">
+    <div class="store p-4">
         <div class="container col-6">
             <h1>Что мы продаем?</h1>
         </div>
@@ -186,20 +196,30 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="index.html"><img src="Images/logo.png" alt="" width="90" height="90" style="display: block;"></a>
+                    <a href="index.php"><img src="Images/logo.png" alt="" width="90" height="90" style="display: block;"></a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
+                <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          Прайс-листы
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать бетон.doc</a></li>
+                          <li><a class="dropdown-item m-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
+                          <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать плиты.doc</a></li>
+                        </ul>
+                      </div>
                     <div class="dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                           Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="beton.html">Бетон</a></li>
-                            <li><a class="dropdown-item" href="fbs.html">ФБС</a></li>
-                            <li><a class="dropdown-item" href="plite.html">Дорожные плиты</a></li>
+                            <li><a class="dropdown-item" href="beton.php">Бетон</a></li>
+                            <li><a class="dropdown-item" href="fbs.php">ФБС</a></li>
+                            <li><a class="dropdown-item" href="plite.php">Дорожные плиты</a></li>
                         </ul>
                       </div>
-                    <a href="index.html" class="link">Контакты</a>
+                    <a href="index.php" class="link">Контакты</a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <h3>Connect</h3>

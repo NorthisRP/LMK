@@ -15,8 +15,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-md g-4">
-            <a href="index.html"><img src="Images/logo.png" alt="" width="60" height="60">
-                <a class="navbar-brand m-2" href="#">ЛибхерМонолитКомплект</a></a>    
+            <a href="index.php"><img src="Images/logo.png" alt="" width="60" height="60">
+                <a class="navbar-brand m-2" href="index.php">ЛибхерМонолитКомплект</a></a>    
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,15 +25,25 @@
                 <div class="navbar-nav">
                     <div class="dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          Прайс-листы
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item m-2" href="beton.php">Скачать бетон.doc</a></li>
+                          <li><a class="dropdown-item m-2" href="fbs.php">Скачать фбс.doc</a></li>
+                          <li><a class="dropdown-item m-2" href="plite.php">Скачать плиты.doc</a></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                           Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <li><a class="dropdown-item m-2" href="beton.html">Бетон</a></li>
-                          <li><a class="dropdown-item m-2" href="fbs.html">ФБС</a></li>
-                          <li><a class="dropdown-item m-2" href="plite.html">Дорожные плиты</a></li>
+                          <li><a class="dropdown-item m-2" href="beton.php">Бетон</a></li>
+                          <li><a class="dropdown-item m-2" href="fbs.php">ФБС</a></li>
+                          <li><a class="dropdown-item m-2" href="plite.php">Дорожные плиты</a></li>
                         </ul>
                       </div>
-                    <a class="nav-link" href="index.html">Контакты</a>
+                    <a class="nav-link" href="index.php">Контакты</a>
                 </div>
             </div>
         </div>
@@ -208,23 +218,17 @@
                     </div>
                     <div class="container-md text-center">
                         <p>Или же оставьте заявку и мы с вами свяжемся сами!</p>
-                        <div class="row g-4">
-
-                            <input class="form-control form-control-lg" type="text" placeholder="Имя"
-                                aria-label=".form-control-lg example">
-
-
-                            <input class="form-control form-control-lg" type="text" placeholder="E-mail"
-                                aria-label=".form-control-lg example">
-
-
-                            <input class="form-control form-control-lg" type="text" placeholder="Телефон"
-                                aria-label=".form-control-lg example">
-
-
-                            <button type="button" class="btn btn-success btn-lg">Оставить заявку</button>
-
-                        </div>
+                            <form action="send.php" method="post">
+                                <div class="row g-4">
+                                    <input class="form-control form-control-lg" type="text" placeholder="Имя"
+                                    aria-label=".form-control-lg example" name="fio" required>
+                                    <input class="form-control form-control-lg" type="text" placeholder="E-mail"
+                                    aria-label=".form-control-lg example" name="email" required>
+                                    <input class="form-control form-control-lg" type="text" placeholder="Телефон"
+                                    aria-label=".form-control-lg example" name="phone" required>
+                                    <button type="submit" class="btn btn-success btn-lg">Оставить заявку</button>
+                                </div>
+                            </form>                   
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -236,20 +240,30 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="index.html"><img src="Images/logo.png" alt="" width="90" height="90" style="display: block;"></a>
+                    <a href="index.php"><img src="Images/logo.png" alt="" width="90" height="90" style="display: block;"></a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
+                <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          Прайс-листы
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать бетон.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать плиты.doc</a></li>
+                        </ul>
+                      </div>
                     <div class="dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                           Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="beton.html">Бетон</a></li>
-                            <li><a class="dropdown-item" href="fbs.html">ФБС</a></li>
-                            <li><a class="dropdown-item" href="plite.html">Дорожные плиты</a></li>
+                            <li><a class="dropdown-item" href="beton.php">Бетон</a></li>
+                            <li><a class="dropdown-item" href="fbs.php">ФБС</a></li>
+                            <li><a class="dropdown-item" href="plite.php">Дорожные плиты</a></li>
                         </ul>
                       </div>
-                    <a href="index.html">Контакты</a>
+                    <a href="index.php">Контакты</a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <h3>Connect</h3>

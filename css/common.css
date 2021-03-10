@@ -11,9 +11,20 @@ nav {
   color: #ee9106 !important;
 }
 
+@media screen and (max-width: 450px) {
+  .navbar-brand {
+    display: none !important;
+  }
+}
+
 #dropdownMenuLink {
   background: #351A00;
   border: none;
+  padding: .5rem .5rem .5rem 0;
+}
+
+.navbar-nav {
+  padding: 20px 0;
 }
 
 .dropdown-menu.show {
