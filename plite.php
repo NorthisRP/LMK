@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ЛибхерМонолитКомплект - Плиты</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/beton.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -48,162 +48,166 @@
             </div>
         </div>
     </nav>
-    <section class="beton container-sm p-4">
-        <div class="header text-center mb-4">
-            <h1>Бетон</h1>
-            <p>Гост 7473-2010, 23558-94</p>
-        </div>
-        <div class="row g-4 justify-content-center">
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 2П30-15-30</p>
-                    <p>Объём: 0,75м³</p>
-                    <p>Вес: 1,9тн</p>
-                </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>8 298</h3>
-                </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
+    <div class="background p-4" id="plite">
+        <section class="beton container-sm p-4">
+            <div class="header text-center mb-4">
+                <h1>Бетон</h1>
+                <p>Гост 7473-2010, 23558-94</p>
             </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 2П30-15-10</p>
-                    <p>Объём: 0,75м³</p>
-                    <p>Вес: 1,9тн</p>
+            <div class="row g-4 justify-content-center">
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 2П30-15-30</p>
+                        <p>Объём: 0,75м³</p>
+                        <p>Вес: 1,9тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>8 298</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>7 645</h3>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 2П30-15-10</p>
+                        <p>Объём: 0,75м³</p>
+                        <p>Вес: 1,9тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>7 645</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 1П30-15-30</p>
-                    <p>Объём: 0,75м³</p>
-                    <p>Вес: 1,9тн</p>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 1П30-15-30</p>
+                        <p>Объём: 0,75м³</p>
+                        <p>Вес: 1,9тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>10 113</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>10 113</h3>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 1П30-15-10</p>
+                        <p>Объём: 0,75м³</p>
+                        <p>Вес: 1,9тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>9 454</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 1П30-15-10</p>
-                    <p>Объём: 0,75м³</p>
-                    <p>Вес: 1,9тн</p>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 2П30-18-30</p>
+                        <p>Объём: 0,88м³</p>
+                        <p>Вес: 2,2тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>9 608</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>9 454</h3>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 2П30-18-10</p>
+                        <p>Объём: 0,88м³</p>
+                        <p>Вес: 2,2тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>8 852</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 2П30-18-30</p>
-                    <p>Объём: 0,88м³</p>
-                    <p>Вес: 2,2тн</p>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 1П30-18-30</p>
+                        <p>Объём: 0,88м³</p>
+                        <p>Вес: 2,2тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>11 710</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>9 608</h3>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: 1П30-18-10</p>
+                        <p>Объём: 0,88м³</p>
+                        <p>Вес: 2,2тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>10 947</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 2П30-18-10</p>
-                    <p>Объём: 0,88м³</p>
-                    <p>Вес: 2,2тн</p>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: ПДБ - 1</p>
+                        <p>Объём: 1,68м³</p>
+                        <p>Вес: 4,2тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>18 700</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>8 852</h3>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: ПДН</p>
+                        <p>Объём: 1,68м³</p>
+                        <p>Вес: 4,2тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>19 300</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 1П30-18-30</p>
-                    <p>Объём: 0,88м³</p>
-                    <p>Вес: 2,2тн</p>
+                <div class="card col-lg-2 col-sm-4 p-4 text-center">
+                    <div class="def">
+                        <p>Марка: ПАГ - 14</p>
+                        <p>Объём: 1,68м³</p>
+                        <p>Вес: 4,2тн</p>
+                    </div>
+                    <div class="price">
+                        <p>Цена руб/м³</p>
+                        <h3>23 500</h3>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Заказать</button> 
                 </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>11 710</h3>
-                </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: 1П30-18-10</p>
-                    <p>Объём: 0,88м³</p>
-                    <p>Вес: 2,2тн</p>
-                </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>10 947</h3>
-                </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: ПДБ - 1</p>
-                    <p>Объём: 1,68м³</p>
-                    <p>Вес: 4,2тн</p>
-                </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>18 700</h3>
-                </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: ПДН</p>
-                    <p>Объём: 1,68м³</p>
-                    <p>Вес: 4,2тн</p>
-                </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>19 300</h3>
-                </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-            <div class="card col-lg-2 col-sm-4 p-4 text-center">
-                <div class="def">
-                    <p>Марка: ПАГ - 14</p>
-                    <p>Объём: 1,68м³</p>
-                    <p>Вес: 4,2тн</p>
-                </div>
-                <div class="price">
-                    <p>Цена руб/м³</p>
-                    <h3>23 500</h3>
-                </div>
-                <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">Заказать</button> 
-            </div>
-    </section>
-    <div class="container-sm">
-        <p>Производство, продажа и отгрузка изделий осуществляется по адресу:
+        </section>
+        <div class="container-sm">
+            <p>Производство, продажа и отгрузка изделий осуществляется по адресу:
 
-            г. Волгоград, ул. Моторная, д. 33.
-        </p>
+                г. Волгоград, ул. Моторная, д. 33.
+            </p>
+        </div>
     </div>
+
+    
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">

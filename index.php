@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>ЛибхерМонолитКомплект - Главная</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/landing.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -151,23 +151,25 @@
         <div class="form p-4">
             <h3>Есть вопросы? Заполните форму и мы с вами свяжемся!</h3>
             <p>Или позвоните по телефону <br> +7 927 123 34 56</p>
-            <div class="row justify-content-around align-items-center flex-wrap py-4 gy-5">
-                <div class="col-md-3">
-                    <input class="form-control form-control-lg" type="text" placeholder="Имя"
-                        aria-label=".form-control-lg example">
+            <form action="send.php" method = "post">
+                <div class="row justify-content-around align-items-center flex-wrap py-4 gy-5">
+                    <div class="col-md-3">
+                        <input class="form-control form-control-lg" type="text" placeholder="ФИО"
+                            aria-label=".form-control-lg example" name="fio">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control form-control-lg" type="text" placeholder="E-mail"
+                            aria-label=".form-control-lg example" name="email">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control form-control-lg" type="text" placeholder="Телефон"
+                            aria-label=".form-control-lg example" name="phone">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-success btn-lg">Оставить заявку</button>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <input class="form-control form-control-lg" type="text" placeholder="E-mail"
-                        aria-label=".form-control-lg example">
-                </div>
-                <div class="col-md-3">
-                    <input class="form-control form-control-lg" type="text" placeholder="Телефон"
-                        aria-label=".form-control-lg example">
-                </div>
-                <div class="col-md-3">
-                    <button type="button" class="btn btn-success btn-lg">Оставить заявку</button>
-                </div>
-            </div>
+            </form>
             <p>Нажимая на кнопку, Вы принимаете Положение и Согласие на обработку персональных данных.</p>
         </div>
         <div class="container-md">

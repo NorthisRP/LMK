@@ -1,10 +1,14 @@
 .card {
+  border: 4px solid #975b01 !important;
+  border-radius: 10px !important;
   margin: 24px;
   background: #351A00 !important;
   color: #fff9f1;
   max-width: 220px !important;
   -webkit-transition: .3s;
   transition: .3s;
+  -webkit-box-shadow: 12px 12px 12px black;
+          box-shadow: 12px 12px 12px black;
 }
 
 .card:hover {
@@ -37,8 +41,19 @@
   color: white !important;
 }
 
+#fbs {
+  background: url(../Images/construction-3423435_1920.jpg);
+}
+
+#beton {
+  background: url(../Images/beautiful-view-construction-site-city-during-sunset.jpg);
+}
+
+#plite {
+  background: url(../Images/construction-silhouette.jpg);
+}
+
 .background {
-  background: url(../Images/construction-3423435_1920.jpg) no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -51,6 +66,11 @@
   top: 0;
   left: 0;
   right: 0;
+}
+
+.container-sm {
+  position: relative !important;
+  color: white;
 }
 
 .ps {

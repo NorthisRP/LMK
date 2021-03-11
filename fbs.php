@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ЛибхерМонолитКомплект - ФБС</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/beton.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -49,6 +49,7 @@
             </div>
         </div>
     </nav>
+    <div class="background p-4" id="fbs">
     <section class="beton container-sm p-4">
         <div class="header text-center mb-4">
             <h1>Фундаментные блоки сплошного сечения</h1>
@@ -224,6 +225,8 @@
             г. Волгоград, ул. Моторная, д.33.
         </p>
     </div>
+    </div>
+    
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">

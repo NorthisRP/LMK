@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Бетон</title>
+    <title>ЛибхерМонолитКомплект - Бетон</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/beton.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -53,7 +53,7 @@
             </div>
         </div>
     </nav>
-    <div class="background">
+    <div class="background p-4" id="beton">
         <section class="beton container-sm p-4">
             <div class="header text-center mb-4">
                 <h1>Бетон</h1>
