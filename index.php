@@ -30,12 +30,12 @@
                             Прайс-листы
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
+                            <li><a class="dropdown-item p-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
                                     бетон.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
+                            <li><a class="dropdown-item p-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
+                            <li><a class="dropdown-item p-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
                                     плиты.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\svai.doc">Скачать сваи.doc</a></li>
+                            <li><a class="dropdown-item p-2" href="prices\svai.doc">Скачать сваи.doc</a></li>
                         </ul>
                     </div>
                     <div class="dropdown">
@@ -44,10 +44,10 @@
                             Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="beton.php">Бетон</a></li>
-                            <li><a class="dropdown-item" href="fbs.php">ФБС</a></li>
-                            <li><a class="dropdown-item" href="plite.php">Дорожные плиты</a></li>
-                            <li><a class="dropdown-item" href="svai.php">Сваи</a></li>
+                            <li><a class="dropdown-item p-2" href="beton.php">Бетон</a></li>
+                            <li><a class="dropdown-item p-2" href="fbs.php">ФБС</a></li>
+                            <li><a class="dropdown-item p-2" href="plite.php">Дорожные плиты</a></li>
+                            <li><a class="dropdown-item p-2" href="svai.php">Сваи</a></li>
                         </ul>
                     </div>
                     <a class="nav-link link" id="link" href="#">Контакты</a>
@@ -218,12 +218,12 @@
                             Прайс-листы
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
+                            <li><a class="dropdown-item p-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
                                     бетон.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
+                            <li><a class="dropdown-item p-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
+                            <li><a class="dropdown-item p-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
                                     плиты.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\svai.doc">Скачать сваи.doc</a></li>
+                            <li><a class="dropdown-item p-2" href="prices\svai.doc">Скачать сваи.doc</a></li>
                         </ul>
                     </div>
                     <div class="dropdown">
@@ -232,10 +232,10 @@
                             Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="beton.php">Бетон</a></li>
-                            <li><a class="dropdown-item" href="fbs.php">ФБС</a></li>
-                            <li><a class="dropdown-item" href="plite.php">Дорожные плиты</a></li>
-                            <li><a class="dropdown-item" href="svai.php">Сваи</a></li>
+                            <li><a class="dropdown-item p-2" href="beton.php">Бетон</a></li>
+                            <li><a class="dropdown-item p-2" href="fbs.php">ФБС</a></li>
+                            <li><a class="dropdown-item p-2" href="plite.php">Дорожные плиты</a></li>
+                            <li><a class="dropdown-item p-2" href="svai.php">Сваи</a></li>
                         </ul>
                     </div>
                     <a href="index.php" class="link">Контакты</a>
