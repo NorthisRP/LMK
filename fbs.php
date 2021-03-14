@@ -23,27 +23,32 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Прайс-листы
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать бетон.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
+                                    бетон.doc</a></li>
                             <li><a class="dropdown-item m-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать плиты.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
+                                    плиты.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\svai.doc">Скачать сваи.doc</a></li>
                         </ul>
                     </div>
                     <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          Каталог
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <li><a class="dropdown-item m-2" href="beton.php">Бетон</a></li>
-                          <li><a class="dropdown-item m-2" href="fbs.php">ФБС</a></li>
-                          <li><a class="dropdown-item m-2" href="plite.php">Дорожные плиты</a></li>
+                            <li><a class="dropdown-item" href="beton.php">Бетон</a></li>
+                            <li><a class="dropdown-item" href="fbs.php">ФБС</a></li>
+                            <li><a class="dropdown-item" href="plite.php">Дорожные плиты</a></li>
+                            <li><a class="dropdown-item" href="svai.php">Сваи</a></li>
                         </ul>
-                      </div>
+                    </div>
                     <a class="nav-link" href="index.php">Контакты</a>
                 </div>
             </div>
@@ -267,25 +272,31 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                 <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          Прайс-листы
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Прайс-листы
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать бетон.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
+                                    бетон.doc</a></li>
                             <li><a class="dropdown-item m-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
-                            <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать плиты.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
+                                    плиты.doc</a></li>
+                            <li><a class="dropdown-item m-2" href="prices\svai.doc">Скачать сваи.doc</a></li>
                         </ul>
-                      </div>
+                    </div>
                     <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          Каталог
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Каталог
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="beton.php">Бетон</a></li>
                             <li><a class="dropdown-item" href="fbs.php">ФБС</a></li>
                             <li><a class="dropdown-item" href="plite.php">Дорожные плиты</a></li>
+                            <li><a class="dropdown-item" href="svai.php">Сваи</a></li>
                         </ul>
-                      </div>
+                    </div>
                     <a href="index.php">Контакты</a>
                 </div>
                 <div class="col-lg-4 col-sm-6">

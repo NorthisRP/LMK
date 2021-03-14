@@ -1,0 +1,64 @@
+.hidden {
+  -webkit-animation-name: delete;
+          animation-name: delete;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.hidden th, .hidden td {
+  padding: 0 !important;
+  border-bottom: none !important;
+}
+
+.background {
+  background: url(../Images/construction-silhouette.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.background::before {
+  background: rgba(99, 50, 1, 0.6);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+table {
+  color: white !important;
+  position: relative;
+  cursor: pointer;
+}
+
+table tr:hover {
+  color: #ee9106 !important;
+}
+
+@-webkit-keyframes delete {
+  from {
+    opacity: 1;
+    font-size: 1em;
+  }
+  to {
+    opacity: 0;
+    font-size: 0;
+  }
+}
+
+@keyframes delete {
+  from {
+    opacity: 1;
+    font-size: 1em;
+  }
+  to {
+    opacity: 0;
+    font-size: 0;
+  }
+}
+/*# sourceMappingURL=svai.css.map */

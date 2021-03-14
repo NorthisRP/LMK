@@ -1,0 +1,49 @@
+@import 'colors';
+
+.hidden{
+    animation-name: delete;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    & th,td{
+        padding: 0 !important;
+        border-bottom: none !important;
+    }
+}
+
+.background{
+    background: url(../Images/construction-silhouette.jpg);
+    background-size: cover;
+    position: relative;
+    &::before{
+        background:$filter;
+        content:"";
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+}
+
+table{
+    color: white !important;
+    position: relative;
+    cursor: pointer;
+}
+
+table tr:hover{
+    color: $secondcolor !important;
+}
+
+@keyframes delete{
+    from{
+        opacity: 1;
+        font-size: 1em;
+    }
+    to{
+        opacity: 0;
+        font-size: 0;
+    }
+}
