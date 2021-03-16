@@ -58,7 +58,7 @@
     <div class="banner">
         <div class="container-fluid">
             <h1>Продажа строительных материалов <br> в Волгограде</h1>
-            <p>Бетон, плиты, ФБС по самым доступным ценам</p>
+            <p>Бетон, плиты, ФБС, сваи по самым доступным ценам</p>
         </div>
         <div id="down" class="container-fluid">
             <h3>Узнать подробнее</h3>
@@ -128,8 +128,8 @@
                     <h3>Плиты</h3>
                     <p>Железобетонные дорожные плиты </p>
                 </div>
-                <div class="d-grid gap-2 mx-auto">
-                    <a href="plite.html"></a><button type="button" class="btn btn-warning btn-lg mt-4">Узнать
+                <div class="mx-auto">
+                    <a href="plite.php"></a><button type="button" class="btn btn-warning btn-lg mt-4">Узнать
                         подробнее</button>
                 </div>
             </div>
@@ -137,10 +137,10 @@
                 <img src="Images/beton.jpg" alt="">
                 <div class="container-sm">
                     <h3>Бетон</h3>
-                    <p>Бетонные смеси и растворы на выбор!</p>
+                    <p>Бетонные смеси и растворы</p>
                 </div>
-                <div class="d-grid gap-2 mx-auto">
-                    <a href="beton.html"><button type="button" class="btn btn-warning btn-lg mt-4">Узнать
+                <div class="mx-auto">
+                    <a href="beton.php"><button type="button" class="btn btn-warning btn-lg mt-4">Узнать
                             подробнее</button></a>
                 </div>
             </div>
@@ -148,10 +148,21 @@
                 <img src="Images/fbs.jpg" alt="">
                 <div class="container-sm">
                     <h3>ФБС</h3>
-                    <p>Блоки ФБС заводского качества!</p>
+                    <p>Блоки ФБС заводского качества</p>
                 </div>
-                <div class="d-grid gap-2 mx-auto">
-                    <a href="fbs.html"><button type="button" class="btn btn-warning btn-lg mt-4">Узнать
+                <div class="mx-auto">
+                    <a href="fbs.php"><button type="button" class="btn btn-warning btn-lg mt-4">Узнать
+                            подробнее</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/svai.jpg" alt="">
+                <div class="container-sm">
+                    <h3>Сваи</h3>
+                    <p>Сваи забивные, железобетонные</p>
+                </div>
+                <div class="mx-auto">
+                    <a href="svai.php"><button type="button" class="btn btn-warning btn-lg mt-4">Узнать
                             подробнее</button></a>
                 </div>
             </div>
@@ -184,11 +195,13 @@
         </div>
         <div class="container-md">
             <div class="row justify-content-center gy-4">
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-7 col-md-12">
+                <div class="map-responsive">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4427.511399793762!2d44.525163905883055!3d48.712857795506956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x411acb2c3221131d%3A0x16a4a02cae4f459d!2z0JLQntCb0JPQntCT0KDQkNCU0KHQmtCY0Jkg0JPQntCh0KPQlNCQ0KDQodCi0JLQldCd0J3Qq9CZINCi0JXQpdCd0JjQp9CV0KHQmtCY0Jkg0KPQndCY0JLQldCg0KHQmNCi0JXQog!5e0!3m2!1sru!2sru!4v1614522477764!5m2!1sru!2sru"
-                        width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
                     </iframe>
+                </div>   
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <h3>Контакты</h3>
