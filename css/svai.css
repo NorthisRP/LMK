@@ -36,28 +36,34 @@ table {
   cursor: pointer;
 }
 
-table tr:hover {
+table tbody tr:hover {
   color: #ee9106 !important;
+}
+
+.header {
+  color: #fffaf2;
+  border-bottom: 1px solid #181818;
+  position: relative;
+}
+
+.header a {
+  color: #fffaf2;
 }
 
 @-webkit-keyframes delete {
   from {
-    opacity: 1;
     font-size: 1em;
   }
   to {
-    opacity: 0;
     font-size: 0;
   }
 }
 
 @keyframes delete {
   from {
-    opacity: 1;
     font-size: 1em;
   }
   to {
-    opacity: 0;
     font-size: 0;
   }
 }

@@ -33,17 +33,24 @@ table{
     cursor: pointer;
 }
 
-table tr:hover{
+table tbody tr:hover{
     color: $secondcolor !important;
+}
+
+.header{
+    color: rgb(255, 250, 242);
+    border-bottom: 1px solid rgb(24, 24, 24);
+    position: relative;
+    a{
+        color: rgb(255, 250, 242);
+    }
 }
 
 @keyframes delete{
     from{
-        opacity: 1;
         font-size: 1em;
     }
     to{
-        opacity: 0;
         font-size: 0;
     }
 }

@@ -58,7 +58,8 @@
     <section class="beton container-sm p-4">
         <div class="header text-center mb-4">
             <h1>Фундаментные блоки сплошного сечения</h1>
-            <h3>2380*300/400/500/600*580</h3>
+            <a href="https://internet-law.ru/gosts/gost/69904/">Гост 13579-78</a> 
+            <h4>2380*300/400/500/600*580</h4>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="card col-lg-2 col-sm-4 p-4 text-center">
@@ -114,7 +115,7 @@
     </section>
     <section class="beton container-sm p-4">
         <div class="header text-center mb-4">
-            <h3>1180*300/400/500/600*580</h3>
+            <h4>1180*300/400/500/600*580</h4>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="card col-lg-2 col-sm-4 p-4 text-center">
@@ -170,7 +171,7 @@
     </section>
     <section class="beton container-sm p-4">
         <div class="header text-center mb-4">
-            <h3>880*300/400/500/600*580</h3>
+            <h4>880*300/400/500/600*580</h4>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="card col-lg-2 col-sm-4 p-4 text-center">

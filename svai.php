@@ -59,6 +59,10 @@
     </nav>
     <div class="background p-2" id="svai">
         <div class="container-sm">
+        <div class="header text-center mb-4 py-4">
+                <h1>Сваи железобетонные</h1>
+                <a href="https://ohranatruda.ru/ot_biblio/standart/201127/">Гост 7473-2010, 23558-94</a> 
+        </div>
         <div class="dropdown d-flex justify-content-center mb-2">
             <a class="btn btn-secondary dropdown-toggle p-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 Выберите категорию
@@ -73,7 +77,8 @@
             <thead>
                 <tr>
                     <th scope="col">Марка изделия</th>
-                    <th scope="col">Объем</th>
+                    <th scope="col">Объем(м³)</th>
+                    <th scope="col">Вес(тн)</th>
                     <th scope="col">Цена б/н с НДС</th>
                 </tr>
             </thead>
@@ -81,195 +86,234 @@
                 <tr class="30">
                     <th scope="row">С 30-30 (1-3)</th>
                     <td>0,28</td>
+                    <td>0,7</td>
                     <th>3 467</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 40-30 (1-3)</th>
                     <td>0,37</td>
+                    <td>0,93</td>
                     <th>4 449</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 50-30 (1-3)</th>
                     <td>0,46</td>
+                    <td>1,15</td>
                     <th>5 350</td>
                 </tr>
                 <tr class="30">
-                    <th scope="row">С 50-30 (5-6)</th>
+                    <th scope="row">С 50-30 (4-6)</th>
+                    <td></td>
                     <td></td>
                     <th>5 691</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 60-30 (2-3)</th>
                     <td>0,55</td>
+                    <td>1,38</td>
                     <th>5 944</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 60-30 (5-6)</th>
+                    <td></td>
                     <td></td>
                     <th>6 405</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 60-30 (7-8))</th>
                     <td></td>
+                    <td></td>
                     <th>7 003</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 70-30 (4-6)</th>
                     <td>0,64</td>
+                    <td>1,6</td>
                     <th>7 858</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 70-30-8</th>
+                    <td></td>
                     <td></td>
                     <th>8 618</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 70-30-9</th>
                     <td></td>
+                    <td></td>
                     <th>9 252</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 80-30 (4-6)</th>
                     <td>0,73</td>
+                    <td>1,83</td>
                     <th>9 303</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 80-30-8</th>
+                    <td></td>
                     <td></td>
                     <th>9 797</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 80-30-9</th>
                     <td></td>
+                    <td></td>
                     <th>10 380</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 80-30-10</th>
+                    <td></td>
                     <td></td>
                     <th>11 768</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 80-30-11</th>
                     <td></td>
+                    <td></td>
                     <th>13 378</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 90-30 (5-6)</th>
                     <td>0,82</td>
+                    <td>2,05</td>
                     <th>10 646</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 90-30-8</th>
+                    <td></td>
                     <td></td>
                     <th>11 153</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 90-30-9</th>
                     <td></td>
+                    <td></td>
                     <th>12 167</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 90-30-10</th>
+                    <td></td>
                     <td></td>
                     <th>13 779</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 90-30-11</th>
                     <td></td>
+                    <td></td>
                     <th>16 224</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 100-30-6</th>
                     <td>0,91</td>
+                    <td>2,28</td>
                     <th>12 065</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 100-30-8</th>
+                    <td></td>
                     <td></td>
                     <th>12 624</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 100-30-9</th>
                     <td></td>
+                    <td></td>
                     <th>13 561</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 100-30-10</th>
+                    <td></td>
                     <td></td>
                     <th>15 425</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 100-30-11</th>
                     <td></td>
+                    <td></td>
                     <th>17 428</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 100-30-12</th>
+                    <td></td>
                     <td></td>
                     <th>18 835</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 100-30-13</th>
                     <td></td>
+                    <td></td>
                     <th>21 052</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 110-30-8</th>
                     <td>1,0</td>
+                    <td>2,5</td>
                     <th>14 195</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 110-30-9</th>
+                    <td></td>
                     <td></td>
                     <th>15 241</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 110-30-10</th>
                     <td></td>
+                    <td></td>
                     <th>16 529</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 110-30-11</th>
+                    <td></td>
                     <td></td>
                     <th>19 073</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 110-30-12</th>
                     <td></td>
+                    <td></td>
                     <th>20 618</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 110-30-13</th>
+                    <td></td>
                     <td></td>
                     <th>23 206</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 120-30-8</th>
                     <td>1,09</td>
+                    <td>2,73</td>
                     <th>15 636</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 120-30-9</th>
+                    <td></td>
                     <td></td>
                     <th>16 765</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 120-30-10</th>
                     <td></td>
+                    <td></td>
                     <th>18 188</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 120-30-11</th>
+                    <td></td>
                     <td></td>
                     <th>21 631</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 120-30-12</th>
                     <td></td>
+                    <td></td>
                     <th>23 379</td>
                 </tr>
                 <tr class="30">
                     <th scope="row">С 120-30-13</th>
+                    <td></td>
                     <td></td>
                     <th>26 315</td>
                 </tr>
@@ -277,190 +321,228 @@
                 <tr class="35">
                     <th scope="row">С 40-35 (1-3)</th>
                     <td>0,52</td>
+                    <td>1,3</td>
                     <th>6 147</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 50-35 (1-3)</th>
                     <td>0,64</td>
+                    <td>1,5</td>
                     <th>7 484</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 60-35 (1-3)</th>
                     <td>0,76</td>
+                    <td>1,9</td>
                     <th>8 833</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 60-35-6</th>
+                    <td></td>
                     <td></td>
                     <th>9 180</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 70-35(4-6)</th>
                     <td>0,88</td>
+                    <td>2,2</td>
                     <th>10 574</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 70-35-8</th>
+                    <td></td>
                     <td></td>
                     <th>11 049</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 70-35-9</th>
                     <td></td>
+                    <td></td>
                     <th>12 677</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 70-35-10</th>
+                    <td></td>
                     <td></td>
                     <th>13 298</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 80-35(5-6)</th>
                     <td>1,0</td>
+                    <td>2,5</td>
                     <th>12 029</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 80-35-8</th>
+                    <td></td>
                     <td></td>
                     <th>12 568</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 80-35-9</th>
                     <td></td>
+                    <td></td>
                     <th>14 422</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 80-35-10</th>
+                    <td></td>
                     <td></td>
                     <th>15 120</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 80-35-11</th>
                     <td></td>
+                    <td></td>
                     <th>15 907</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 90-35(5-6)</th>
                     <td>1,12</td>
+                    <td>2,8</td>
                     <th>13 425</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 90-35-8</th>
+                    <td></td>
                     <td></td>
                     <th>14 024</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 90-35-9</th>
                     <td></td>
+                    <td></td>
                     <th>16 101</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 90-35-10</th>
+                    <td></td>
                     <td></td>
                     <th>16 895</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 90-35-11</th>
                     <td></td>
+                    <td></td>
                     <th>17 720</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 90-35-12</th>
+                    <td></td>
                     <td></td>
                     <th>18 744</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 100-35-6</th>
                     <td>1,24</td>
+                    <td>3,1</td>
                     <th>14 871</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 100-35-8</th>
+                    <td></td>
                     <td></td>
                     <th>15 537</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 100-35-9</th>
                     <td></td>
+                    <td></td>
                     <th>16 345</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 100-35-10</th>
+                    <td></td>
                     <td></td>
                     <th>17 327</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 100-35-11</th>
                     <td></td>
+                    <td></td>
                     <th>19 686</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 100-35-12</th>
+                    <td></td>
                     <td></td>
                     <th>21 407</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 100-35-13</th>
                     <td></td>
+                    <td></td>
                     <th>22 571</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 110-35-8</th>
                     <td>1,37</td>
+                    <td>3,43</td>
                     <th>17 093</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 110-35-9</th>
+                    <td></td>
                     <td></td>
                     <th>19 631</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 110-35-10</th>
                     <td></td>
+                    <td></td>
                     <th>20 590</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 110-35-11</th>
+                    <td></td>
                     <td></td>
                     <th>21 657</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 110-35-12</th>
                     <td></td>
+                    <td></td>
                     <th>23 534</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 110-35-13</th>
+                    <td></td>
                     <td></td>
                     <th>24 820</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 120-35-8</th>
                     <td>1,49</td>
+                    <td>3,73</td>
                     <th>18 559</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 120-35-9</th>
+                    <td></td>
                     <td></td>
                     <th>21 317</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 120-35-10</th>
                     <td></td>
+                    <td></td>
                     <th>22 355</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 120-35-11</th>
+                    <td></td>
                     <td></td>
                     <th>23 523</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 120-35-12</th>
                     <td></td>
+                    <td></td>
                     <th>25 560</td>
                 </tr>
                 <tr class="35">
                     <th scope="row">С 120-35-13</th>
+                    <td></td>
                     <td></td>
                     <th>26 691</td>
                 </tr>
@@ -478,7 +560,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="container-md text-center">
-                        <p>Свяжитесь с нами по следующему номеру: <br> +7 927 111 12 34</p>
+                        <p>Свяжитесь с нами по следующему номеру: <br> <strong>+7 927 111 12 34</strong> </p>
                     </div>
                     <div class="container-md text-center">
                         <p>Или же оставьте заявку и мы с вами свяжемся сами!</p>

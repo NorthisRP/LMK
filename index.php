@@ -30,12 +30,12 @@
                             Прайс-листы
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item p-2" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
+                            <li><a class="dropdown-item p-3" href="prices\Prays_Beton_LMK_xlsx.docx">Скачать
                                     бетон.doc</a></li>
-                            <li><a class="dropdown-item p-2" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
-                            <li><a class="dropdown-item p-2" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
+                            <li><a class="dropdown-item p-3" href="prices\FBS_2020.doc">Скачать фбс.doc</a></li>
+                            <li><a class="dropdown-item p-3" href="prices\Prays_dorozhnye_plity_LMK_2020.doc">Скачать
                                     плиты.doc</a></li>
-                            <li><a class="dropdown-item p-2" href="prices\svai.doc">Скачать сваи.doc</a></li>
+                            <li><a class="dropdown-item p-3" href="prices\svai.doc">Скачать сваи.doc</a></li>
                         </ul>
                     </div>
                     <div class="dropdown">

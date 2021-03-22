@@ -61,7 +61,7 @@
         <section class="beton container-sm p-4">
             <div class="header text-center mb-4">
                 <h1>Бетон</h1>
-                <p>Гост 7473-2010, 23558-94</p>
+                <a href="https://internet-law.ru/gosts/gost/51007/">Гост 7473-2010, 23558-94</a>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="card col-lg-2 col-sm-4 p-4 text-center">
@@ -153,7 +153,7 @@
         <section class="beton container-sm p-4">
             <div class="header text-center mb-4">
                 <h1>Раствор строительный цементный</h1>
-                <p>Гост 28013-98</p>
+                <a href="https://internet-law.ru/gosts/gost/8624/">Гост 28013-98</a> 
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="card col-lg-2 col-sm-4 p-4 text-center">
